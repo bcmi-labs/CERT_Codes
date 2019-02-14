@@ -1,5 +1,5 @@
-if ((digitalRead(7) == 1 && digitalRead(3) == 0)
-    || digitalRead(6) == 0)
+if ((digitalRead(B1) == 1 && digitalRead(B3) == 0)
+    || digitalRead(B2) == 0)
 {
   digitalWrite(4, HIGH);
 }
