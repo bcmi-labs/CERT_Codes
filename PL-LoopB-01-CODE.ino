@@ -1,5 +1,3 @@
-void loop()
-{
   for (int i = 0; i < 5; i++)
   {
     digitalWrite(LED1, HIGH);
@@ -21,4 +19,3 @@ void loop()
       }
     }
   }
-}
