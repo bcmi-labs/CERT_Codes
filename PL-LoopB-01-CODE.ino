@@ -4,18 +4,11 @@
     delay(250);
     digitalWrite(LED1, LOW);
     delay(250);
-    for (int i = 0; i < 3; i++)
+    for (int i = 26; i > 18; i--)
     {
-      digitalWrite(LED2, HIGH);
+      digitalWrite(LED1, HIGH);
       delay(250);
-      digitalWrite(LED2, LOW);
+      digitalWrite(LED1, LOW);
       delay(250);
-      for (int i = 26; i > 18; i--)
-      {
-        digitalWrite(LED1, HIGH);
-        delay(250);
-        digitalWrite(LED1, LOW);
-        delay(250);
-      }
-    }
+    }  
   }
