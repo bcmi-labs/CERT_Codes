@@ -1,10 +1,10 @@
 void loop() 
 {
-redSensorValue = analogRead(redSensorPin);
+redSensorValue = analogRead(redPin);
 delay(5);
-greenSensorValue = analogRead(greenSensorPin);
+greenSensorValue = analogRead(greenPin);
 delay(5);
-blueSensorValue = analogRead(blueSensorPin);
+blueSensorValue = analogRead(bluePin);
 delay(5);
 
 redValue   = redSensorValue   / 4;
