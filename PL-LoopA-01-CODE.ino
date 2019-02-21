@@ -1,7 +1,6 @@
 int count = 0;
 
-void setup()
-{
+void setup(){
   while (count < 30)
   {
     digitalWrite(13, HIGH);
@@ -11,5 +10,4 @@ void setup()
   }
   count++;
 }
-
 void loop() {}
