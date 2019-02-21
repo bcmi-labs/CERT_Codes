@@ -1,6 +1,5 @@
 int number = random(1,10);
-switch (number)
-{
+switch (number){
 case 1:
 case 2:
   break;
