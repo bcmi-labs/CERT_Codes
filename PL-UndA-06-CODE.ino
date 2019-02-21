@@ -1,9 +1,7 @@
 int number = random(1,10);
-for (int i = 10; number < i; i--)
-{
+for (int i = 10; number < i; i--) {
   delay(500);
 }
-else
-{
+else {
   delay(1000);
 }
