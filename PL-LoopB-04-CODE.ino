@@ -1,5 +1,4 @@
-void loop()
-{
+void loop(){
   current = millis();
   while (millis() < current + 2000)
   {
