@@ -1,5 +1,4 @@
-void setup()
-{
+void setup(){
   current = millis();
   while (millis() < current + 2000)
   {
