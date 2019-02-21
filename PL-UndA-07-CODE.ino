@@ -1,12 +1,10 @@
 int number = random(1, 10);
-while (true)
-{
+while (true) {
   if (number == number)
   {
     delay(1000);
   }
-  else
-  {
+  else {
     delay(500);
   }
 }
