@@ -1,5 +1,4 @@
-while (millis() < 5000)
-{
+while (millis() < 5000){
   sensorValue = analogRead(A0);
   if (sensorValue > sensorHigh)
   {
