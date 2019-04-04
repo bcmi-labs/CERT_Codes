@@ -1,6 +1,9 @@
-if ((digitalRead(B1) == 0 || 
-     digitalRead(B2) == 1) && 
-    digitalRead(B3) == 1) 
+int pinB1 = digitalRead(11);
+int pinB2 = digitalRead(6);
+int pinB3 = digitalRead(3);
+
+if ((pinB1 == 0 || pinB2 == 1) && 
+    pinB3 == 1) 
 {
   digitalWrite(13, HIGH);
 }
