@@ -1,1 +1,1 @@
-char text[] = "Have Fun!";
+char text[] = "Great Job!";
