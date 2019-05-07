@@ -1,13 +1,18 @@
+    
 int count = 0;
+int number = 5;
 
 void setup(){
-  while (count < 30)
+  while (count < 10)
   {
-    digitalWrite(13, HIGH);
-    delay(250);
-    digitalWrite(13, LOW);
-    delay(250);
+    number--;
+    count++;
+    while (count < 6)
+    {
+      number++;
+      count++;
+    }
   }
-  count++;
+  number++;
 }
 void loop() {}
