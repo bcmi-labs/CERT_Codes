@@ -1,4 +1,3 @@
-    
 int count = 0;
 int number = 5;
 
