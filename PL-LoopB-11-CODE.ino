@@ -8,6 +8,6 @@ for (int i = 0; i <= 7; i++)
 }
 for (int i = 33; i >= 28; i--)
 {
-  numner++;
+  number++;
   counter++;
 }
